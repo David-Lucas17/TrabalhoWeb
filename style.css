@@ -5,6 +5,17 @@ body {
   color: #333;
 }
 
+.semSublinhado{
+  text-decoration: none;
+  color:#e93aa0; 
+  
+}
+
+.sublinhadoProduto{
+  text-decoration: none;
+  color: #555555;
+}
+
 header {
   background-color: #f1dcef;
   padding: 30px 20px;
@@ -128,14 +139,18 @@ nav a:hover {
 .categorias {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 5px;
 }
 
 .categoria h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+  text-decoration:none;
+  color: #444;
   text-align: center;
-  color: black;
+  color: rgb(171, 81, 126);
 }
 
 .rodape{
@@ -148,3 +163,69 @@ nav a:hover {
   color: #b5095f;
 }
 
+.configProd img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.configProd h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #3f022c;
+}
+
+.configProd h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #9f4482;
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: auto;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+
+.descricao{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: smaller 5px;
+}
+
+.produto-box {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.produto-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.produto-box button {
+  margin-top: 10px;
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.produto-box button:hover {
+  background-color: #e6007e;
+}
