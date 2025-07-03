@@ -17,6 +17,11 @@ body {
   color: #555555;
 }
 
+.sublinhadoDestaque a{
+ text-decoration: none;
+  color:#3d3b3d; 
+}
+
 header {
   background-color: #f1dcef;
   padding: 30px 20px;
@@ -196,6 +201,7 @@ nav a:hover {
   justify-items: auto;
   gap: 20px;
   padding-bottom: 60px;
+  justify-content: center;
 }
 
 .descricao{
@@ -212,6 +218,7 @@ nav a:hover {
   width: 250px;
   text-align: center;
   margin: 10px;
+  
   
 }
 
@@ -366,4 +373,41 @@ form input[type="button"] {
 
 form input[type="button"]:hover {
   background-color: #95014b;
+}
+
+.exProduto {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.alinhamentoProduto img{
+  width: 400x;
+  height: 400px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.alinhamentoProduto h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.alinhamentoProduto input[type="button"]{
+  background-color: #ec4c9f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
 }
