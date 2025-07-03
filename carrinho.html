@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traço & Cor | Carrinho</title>
+  <link rel="icon" href="https://cdn.dooca.store/51187/files/fav-icon-3_96x96.png?v=1661979966" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 style="position: absolute;"><a href="index.html" class="semSublinhado">Traço & Cor</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Buscar</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="carrinho.html">Carrinho 🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="carrinho">
+    <h2>🛍️ Meu Carrinho</h2>
+
+    <div class="item-carrinho">
+      <img src="img/cadernoInteligente.png" alt="Caderno Inteligente">
+      <div class="detalhes">
+        <h3>Caderno Inteligente</h3>
+        <p>R$ 71,00</p>
+        <label>Quantidade:
+          <input type="number" value="1" min="1">
+        </label>
+        <button class="remover">Remover</button>
+      </div>
+    </div>
+
+    <div class="item-carrinho">
+      <img src="img/lancheiraTérmica.png" alt="Lancheira Térmica">
+      <div class="detalhes">
+        <h3>Lancheira Térmica</h3>
+        <p>R$ 151,00</p>
+        <label>Quantidade:
+          <input type="number" value="1" min="1">
+        </label>
+        <button class="remover">Remover</button>
+      </div>
+    </div>
+
+    <div class="resumo">
+      <h3>Total: <span>R$ 222,00</span></h3>
+      <button class="finalizar">Finalizar Compra</button>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p>&copy; 2025 Traço & Cor. Todos os direitos reservados.</p>
+    <p>Desenvolvido por David Lucas e Milena.</p>
+  </footer>
+
+</body>
+</html>
