@@ -32,13 +32,13 @@ header {
 header h1 {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  color: #e93aa0;
+  color: #cf3f93;
   margin: 0 15px;
   
 }
 
 .destaques {
-  background-color: #c93e83;
+  background-color: #e765a6;
   padding: 15px 50px;
   text-align: center;
   border-bottom: 0px ;
@@ -343,7 +343,7 @@ nav a:hover {
 }
 
 .rodape {
-  background-color: #c93e83;
+  background-color: #cf3f93;
   padding: 15px 50px;
   text-align: center;
   justify-content: center;
@@ -377,14 +377,15 @@ form input[type="button"]:hover {
 
 .exProduto {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
+  color: #646161;
   
 }
 
 .alinhamentoProduto img{
-  width: 400x;
-  height: 400px;
+  width: 350x;
+  height: 350px;
   border-radius: 8px;
   margin-bottom: 15px;
   display: block;
@@ -392,9 +393,9 @@ form input[type="button"]:hover {
 }
 
 
-.alinhamentoProduto h2{
+.alinhamentoProduto h2,p{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
 
 }
@@ -411,3 +412,4 @@ form input[type="button"]:hover {
   display: block;
   margin: 0 auto;
 }
+
