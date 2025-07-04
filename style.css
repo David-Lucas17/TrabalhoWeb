@@ -119,6 +119,7 @@ nav a:hover {
   gap: 10px;
   justify-content:center;
   padding: 40px 20px;
+  align-items: stretch;
 }
 
 .produto {
@@ -129,7 +130,6 @@ nav a:hover {
   box-shadow: 0 4px 12px rgba(65, 56, 62, 0.1);
   text-align: center;
 }
-
 
 .produto img {
   width: 180px;
@@ -164,8 +164,13 @@ nav a:hover {
 }
 
 .rodape{
-  text-align: center;
-}
+    padding: 15px 50px 75px;
+    text-align: center;
+    color: #efe3ec;
+    font-size: 18px;
+    min-height: 150px;
+    margin-top: 100px;
+  }
 
 .obj {
   font-family: 'Gloria Hallelujah', cursive;
@@ -218,7 +223,6 @@ nav a:hover {
   width: 250px;
   text-align: center;
   margin: 10px;
-  
   
 }
 
@@ -411,5 +415,40 @@ form input[type="button"]:hover {
   font-size: 15px;
   display: block;
   margin: 0 auto;
+}
+
+.busca {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-busca {
+  margin-top: 30px;
+}
+
+.form-busca input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #c93e83;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.form-busca input[type="submit"] {
+  background-color: #e22185;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-busca input[type="submit"]:hover {
+  background-color: #95014b;
 }
 
